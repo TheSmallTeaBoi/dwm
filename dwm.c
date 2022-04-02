@@ -35,6 +35,7 @@
 #include <X11/Xatom.h>
 #include <X11/Xlib.h>
 #include <X11/Xproto.h>
+#include <X11/Xresource.h>
 #include <X11/Xutil.h>
 #ifdef XINERAMA
 #include <X11/extensions/Xinerama.h>
@@ -46,7 +47,6 @@
 #include <sys/sysctl.h>
 #include <kvm.h>
 #endif /* __OpenBSD */
-
 #include "drw.h"
 #include "util.h"
 
